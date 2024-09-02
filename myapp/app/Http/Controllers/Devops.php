@@ -11,7 +11,7 @@ class Devops extends Controller {
     public function __invoke()
     {
 
-        $data = DB::table('welcome')->get();
+        $data = DB::table('participantes')->get();
 
         return view('welcome', ['data' => $data]);
     }

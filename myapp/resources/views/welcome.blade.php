@@ -70,7 +70,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     @foreach ($data as $row)
-                        <div>registro de la base de datos ID = {{ $row->id }}: Description: {{ $row->description }}</div>
+                        <div>registro de la base de datos ID = {{ $row->id }}: Nombre: {{ $row->nombre }}</div>
                     @endforeach
                 </div>
             </div>
